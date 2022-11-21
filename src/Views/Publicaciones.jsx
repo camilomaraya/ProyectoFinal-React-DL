@@ -1,16 +1,17 @@
+import '../Assets/styles/publicaciones.css'
+
+
 export default function Publicaciones() {
   return (
     <>
-      <div className="mb-4 mt-5"></div>
-
-      <div className="row ">
-        <div className="col-lg-7 mx-auto">
+      <div className="row size">
+        <div className="col-lg-9 mx-auto">
           <div className="card mt-2 mx-auto p-4 bg-light">
             <h2 className="mx-auto">PUBLICA TU LIBRO</h2>
             <div className="card-body bg-light">
               <div className="container">
                 <form>
-                  <div className="controls">
+                  <div className="control">
                     <div className="row">
                       <div className="col-md-6">
                         <div className="form-group">
@@ -32,7 +33,6 @@ export default function Publicaciones() {
                             className="form-control"
                             placeholder="Ingresa el nombre del autor*"
                             required
-                            data-error="Lastname is required."
                           />
                         </div>
                       </div>
@@ -107,7 +107,7 @@ export default function Publicaciones() {
                           <strong>Sube la foto de portada</strong>
                         </label>
                       </div>
-                      <div className="col-md-12 my-3">
+                      <div className="col-md-12 my-3 mb-5">
                         <input
                           type="submit"
                           className="btn btn-success btn-send  pt-2 btn-block

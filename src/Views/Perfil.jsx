@@ -1,3 +1,4 @@
+import Publicaciones from './Publicaciones'
 export default function Perfil() {
   return (
     <>
@@ -11,9 +12,11 @@ export default function Perfil() {
                 src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg"
                 alt="..."
               />
-              <span className="font-weight-bold">Esto</span>
-              <span className="text-black-50">Es un ejemplooo</span>
-              <span> </span>
+              <span className="font-weight-bold">UserName</span>
+              <span className="text-black-50">correo@correo.com</span>
+              <span><button className="btn btn-warning profile-button" type="button">
+                  Editar
+                </button></span>
             </div>
           </div>
           <div className="col-md-5 border-right">
@@ -70,7 +73,7 @@ export default function Perfil() {
                   />
                 </div>
               </div>
-              <div className="mt-5 text-center">
+              <div className="mt-3 text-center">
                 <button className="btn btn-primary profile-button" type="button">
                   Guardar
                 </button>
@@ -79,6 +82,9 @@ export default function Perfil() {
           </div>
         </div>
       </div>
+
+      <hr />
+      <Publicaciones />
     </>
   );
 }
