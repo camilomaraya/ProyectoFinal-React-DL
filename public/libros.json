@@ -1,0 +1,122 @@
+[
+    {
+        "id": "1",
+        "title":"El gato que amaba los libros",
+        "autor": "Natsukawa Sosuke",
+        "sinopsis": "Un homenaje a las librerías, a los libros y a todos aquellos que los aman. Una lectura para recrearse y saborear con un buen té japonés. Una de las novelas japonesas traducida a más idiomas en los últimos años. Best seller del Times en Reino Unido y libro favorito de las librerías independientes en Estados Unidos.",
+        "img": "https://contrapunto.cl/25464/el-gato-amaba-los-libros.jpg",
+        "categoria": "Ficción moderna y contemporánea",
+        "npag": "256",
+        "precio": "$12.600"
+    },
+    {
+        "id": "2",
+        "title":"Plantas y árboles de los bosques de Chile",
+        "autor": "Martin F. Gardner",
+        "sinopsis": "Siguiendo la huella de botánicos, historiadores, artistas y científicos destacados, entre ellos Carlos Muñoz Pizarro, Claudio Gay, Rodolfo Philippi y Marianne North, este título recoge el fruto del trabajo de todos quienes, a partir del siglo XVIII, comenzaron a documentar, recolectar, estudiar e ilustrar las plantas y árboles de nuestro territorio, muchas de cuyas muestras fueron enviadas hacia las islas británicas, siendo el RBGE uno de los principales beneficiados.",
+        "img": "https://contrapunto.cl/25434/plantas-y-arboles-de-los-bosques-de-chile.jpg",
+        "categoria": "Ciencias y naturaleza",
+        "npag": "202",
+        "precio": "$70.920"
+    },
+    {
+        "id": "3",
+        "title":"Personalidades Perrunas",
+        "autor": "Alison Davies",
+        "sinopsis": "Los perros son animales increíbles, que nos levantan el ánimo simplemente por ser PERROS. El meneo de su cola, sus irresistibles ojos de cachorro y su naturaleza leal y servicial les han dado el derecho a convertirse en los mejores amigos del hombre.",
+        "img": "https://contrapunto.cl/25694/personalidades-perrunas.jpg",
+        "categoria": "Ciencias y naturaleza",
+        "npag": "128",
+        "precio": "$13.320"
+    },
+    {
+        "id": "4",
+        "title":"Los Archivos de Star Wars. 1977-1983",
+        "autor": "Paul Duncan",
+        "sinopsis": "Star Wars irrumpió en nuestras pantallas de cine en 1977 y el mundo no ha sido el mismo desde entonces. El público abrazó con entusiasmo la energía positiva del universo Star Wars mientras seguía los pasos del granjero Luke Skywalker en su viaje por las galaxias, conociendo personajes extraordinarios como el misterioso ermitaño Obi-Wan Kenobi, los piratas espaciales Han Solo y Chewbacca, los leales droides C-3PO y R2-D2, la audaz princesa Leia Organa y el temible Darth Vader, al servicio del tenebroso y malvado emperador.",
+        "img": "https://contrapunto.cl/15959/los-archivos-de-star-wars-1977-1983.jpg",
+        "categoria": "Cine y Música",
+        "npag": "512",
+        "precio": "$31.320"
+    },
+    {
+        "id": "5",
+        "title":"Persépolis",
+        "autor": "Marjane Satrapi",
+        "sinopsis": "Persépolis nos cuenta la revolución islámica iraní vista desde los ojos de una niña que asiste atónita al cambio profundo que experimentan su país y su familia, mientras ella debe aprender a llevar el velo. Intensamente personal y profundamente político, el relato autobiográfico de Marjane Satrapi examina qué significa crecer en un ambiente de guerra y represión política.",
+        "img": "https://contrapunto.cl/25916/persepolis.jpg",
+        "categoria": "Ficción moderna y contemporánea",
+        "npag": "325",
+        "precio": "$17.100"
+    },
+    {
+        "id": "6",
+        "title":"La dictadura de los datos",
+        "autor": "Brittany Kaiser",
+        "sinopsis": "La verdadera historia desde dentro de Cambridge Analytica y de cómo el Big Data, Trump y Facebook rompieron la democracia y cómo puede volver a pasar Cuando Brittany Kaiser, una consultora política novata especializada en derechos humanos y relaciones internacionales, se sentó por primera vez con Alexander Nix, el carismático líder de la nueva empresa de comunicación política Cambridge Analytica, creía que los datos personales —la información precisa e identificable recogida de los smartphones, redes sociales y otros hábitos online— podían ser una fuerza para el bien. ",
+        "img": "https://images.cdn3.buscalibre.com/fit-in/360x360/c1/42/c1421e570059ba6ecc98b981336baae8.jpg",
+        "categoria": "Historia de la humanidad, Ficción",
+        "npag": "504",
+        "precio": "$6.840"
+    },
+    {
+        "id": "7",
+        "title":"Juego de tronos. Canción de hielo y fuego I",
+        "autor": "George R.R. Martin",
+        "sinopsis": "Juego de Tronos es el primer volumen de Canción de hielo y fuego, la monumental saga de fantasía épica del escritor George R. R. Martin que ha vendido más de 20 millones de ejemplares en todo el mundo. De la saga que inspiró la filmación de la aclamada serie televisiva de HBO: Game of Thrones.",
+        "img": "https://contrapunto.cl/24857/juego-de-tronos-cancion-de-hielo-y-fuego-i.jpg",
+        "categoria": "Ficción, Novela Histórica",
+        "npag": "800",
+        "precio": "$12.600"
+    },
+    {
+        "id": "8",
+        "title":"Hombres que llegan a un pueblo",
+        "autor": "Hernán Rivera Letelier",
+        "sinopsis": "En estas breves y entrañables tres novelas breves, Hernán Rivera Letelier vuelve a uno de sus temas con que más maestría ha escrito, el del perdido mundo salitrero. Un violinista, un fotógrafo y un embaucador llegan a tres oficinas salitreras y descubrirán en ellas no solo un mundo en donde el abuso y la explotación obrera era pan de cada día, sino también la violencia, el amor, la amistad. Un mundo con ciertos aires fantasmagórico que Rivera Letelier revela a sus lectores con el sello que lo ha hecho famoso en el mundo entero.",
+        "img": "https://contrapunto.cl/24792/hombres-que-llegan-a-un-pueblo.jpg",
+        "categoria": "Ficción Literaria ",
+        "npag": "320",
+        "precio": "$13.500"
+    },
+    {
+        "id": "9",
+        "title":"Los siete maridos de Evelyn Hugo",
+        "autor": "Jenkins Reid Taylor",
+        "sinopsis": "Evelyn Hugo, el ícono de Hollywood que se ha recluido en su edad madura, decide al fin contar la verdad sobre su vida llena de glamour y de escándalos. Pero cuando elige para ello a Monique Grant, una periodista desconocida, nadie se sorprende más que la misma Monique. ¿Por qué ella? ¿Por qué ahora? Monique no está precisamente en su mejor momento. Su marido la abandonó, y su vida profesional no avanza. Aun ignorando por qué Evelyn la ha elegido para escribir su biografía, Monique está decidida a aprovechar esa oportunidad para dar impulso a su carrera.",
+        "img": "https://contrapunto.cl/21347/los-siete-maridos-de-evelyn-hugo.jpg",
+        "categoria": "Ficción moderna, Novela Romántica",
+        "npag": "384",
+        "precio": "$17.100"
+    },
+    {
+        "id": "10",
+        "title":"Canción para mañana. Memoria de Los Bunkers",
+        "autor": "Mauricio Durán",
+        "sinopsis": "Canción para mañana es un relato que habla de música y de una banda, de sus cinco integrantes, y de Chile y México, del siglo XX y el XXI, y de las historias que hay detrás de las canciones más conocidas de Los Bunkers, temas que los llevan desde Talcahuano a la Plaza Dignidad, del Estadio Víctor Jara a los mayores escenarios de Latinoamérica. Mauricio Durán nos entrega en este, su primer libro, una serie de imágenes de épocas extraordinarias, meticulosas y emotivas: una hermosa narración sobre la juventud y los grandes cambios.",
+        "img": "https://images.cdn3.buscalibre.com/fit-in/360x360/02/e9/02e910f79d3cf3dc6f0f70cbdc0be3e0.jpg",
+        "categoria": "Biografías",
+        "npag": "244",
+        "precio": "$15.210"
+    },
+    {
+        "id": "11",
+        "title":"He besado a Shara Wheeler",
+        "autor": "Casey McQuiston",
+        "sinopsis": "Shara, la guapísima y cristiana hija del director, desaparece la noche del baile tras haber besado a Chloe. Esta deberá unirse a Smith (el novio de Shara) y Rory (el chico enamorado de Shara) para encontrar a su némesis antes de que se revele cuál de las dos es la valedictorian (alumna con mejores notas). Por suerte, Shara ha dejado pistas para los tres.",
+        "img": "https://contrapunto.cl/25795/he-besado-a-shara-wheeler.jpg",
+        "categoria": "Novela Juvenil",
+        "npag": "416",
+        "precio": "$14.400"
+    },
+    {
+        "id": "12",
+        "title":"Malas mujeres",
+        "autor": "Maria Hesse",
+        "sinopsis": "¿Cuándo se torció todo para la mujer y se la empezó a asociar al mal? ¿Fue con Eva o con Pandora? Sea como sea, ella es culpable de la situación en la que está la humanidad. Así lo demostraron desde Aristóteles o Hipócrates hasta nuestros sabios cristianos, los inquisidores o Freud. Y así se le negó la educación, la participación en la vida pública y la toma de decisiones, se la repudió, denigró y hasta mató. María Hesse se pregunta por las malas de la película, las brujas de los cuentos, las caprichosas y crueles que cambiaron el rumbo de la historia: una genial vuelta de tuerca a figuras de ficción como la madrastra o Helena de Troya; a mujeres reales como Salomé, la monja alférez o Juana la Loca, hasta llegar a nuestros días con Camilla Parker, Miley Cyrus o Nevenka: mujeres que arrastran una historia de culpa e impostura y el estigma de haber provocado el mal.",
+        "img": "https://contrapunto.cl/25794/malas-mujeres.jpg",
+        "categoria": "Historia y Humanidades",
+        "npag": "168",
+        "precio": "$18.000"
+    }
+]

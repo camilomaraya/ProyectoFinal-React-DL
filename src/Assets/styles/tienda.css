@@ -1,0 +1,32 @@
+.grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col{
+  width: 20rem;
+  height: auto;
+}
+
+.card-img-top{
+  height: 400px;
+}
+
+.card-body{
+  height: 200px;
+  text-align: center;
+}
+
+.card-footer{
+  padding: 10px;
+}
+
+.btn{
+  margin: 20px;
+}
+
+svg{
+  margin-left: 20px ;
+}
