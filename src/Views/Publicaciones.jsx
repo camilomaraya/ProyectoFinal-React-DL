@@ -1,5 +1,4 @@
-import '../Assets/styles/publicaciones.css'
-
+import "../Assets/styles/publicaciones.css";
 
 export default function Publicaciones() {
   return (
@@ -82,36 +81,21 @@ export default function Publicaciones() {
                         </div>
                       </div>
                       <div className="custom-file">
-                        <input
-                          type="file"
-                          className="custom-file-input"
-                          id="customFile"
-                        />
-                        <label
-                          className="custom-file-label mx-5 my-4"
-                          for="customFile"
-                        >
+                        <input type="file" className="custom-file-input" />
+                        <label className="custom-file-label mx-5 my-4">
                           <strong>Sube el archivo en formato pdf</strong>
                         </label>
                       </div>
                       <div className="custom-file">
-                        <input
-                          type="file"
-                          className="custom-file-input"
-                          id="customFile"
-                        />
-                        <label
-                          className="custom-file-label mx-5"
-                          for="customFile"
-                        >
+                        <input type="file" className="custom-file-input" />
+                        <label className="custom-file-label mx-5">
                           <strong>Sube la foto de portada</strong>
                         </label>
                       </div>
                       <div className="col-md-12 my-3 mb-5">
                         <input
-                          type="submit"
-                          className="btn btn-success btn-send  pt-2 btn-block
-                            "
+                          type="button"
+                          className="btn btn-success btn-send  pt-2 btn-block"
                           value="Publicar Libro"
                         />
                       </div>

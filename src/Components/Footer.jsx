@@ -19,13 +19,12 @@ export default function Footer() {
             <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
               <h6 className="fw-bold mb-4">BOOKSWAP</h6>
               <p>
-                Los libros distribuidos en esta página web son de exclusiva
-                responsabilidad de quienes los ponen a la venta. 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim assumenda, at nemo illo nobis voluptate ducimus repellendus fugiat expedita veritatis magnam dolor.
               </p>
             </div>
             <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
               <h6 className="fw-bold mb-4">CONTACTO</h6>
-              <p>Angamos #370 - La Serena</p>
+              <p>La Serena</p>
               <p>contacto@bookswap.com</p>
             </div>
           </div>

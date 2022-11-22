@@ -1,4 +1,4 @@
-import "../Assets/styles/login.css";
+
 import { NavLink } from "react-router-dom";
 
 import { useContext, useState } from "react";
@@ -40,52 +40,82 @@ function InicioSesion() {
 
   return (
     <>
-      <div className="row g-0">
-        <div className="d-none d-md-flex col-md-4 col-lg-6 bg-image"></div>
-        <div className="col-md-8 col-lg-6  ">
-          <div className=" login d-flex align-items-center py-5 ">
-            <div className="container ">
-              <div className="col-md-9 col-lg-8 mx-auto text-center">
-                <h1>Bienvenido</h1>
-                <h5>Inicia sesión con tu cuenta de BOOKSWAP</h5>
-                <form>
-                  <div className="form-floating mb-3">
-                    <input
-                      type="email"
-                      className="form-control"
-                      value={email}
-                      onChange={ingresarEmail}
-                    />
-                    <label>Correo electronico</label>
-                  </div>
-                  <div className="form-floating mb-3">
-                    <input
-                      type="password"
-                      className="form-control"
-                      value={password}
-                      onChange={ingresarPassword}
-                    />
-                    <label>Contraseña</label>
-                  </div>
+      <div className="container w-75 mt-5 shadow">
+        <div className="row align-items-stretch">
+          <div className="col w-50 bg-image d-none d-lg-block col-md-5 col-lg-5 col-xl-6 rounded"></div>
+          <div className="col bg-white p-5 rounded-end">
+            <div className="text-center py-3">
+              <h1>Bienvenido</h1>
+              <h5>Inicia sesión con tu cuenta de BOOKSWAP</h5>
+            </div>
+            <form>
+              <div className=" form-floating mb-4">
+                <input
+                  type="email"
+                  className="form-control"
+                  value={email}
+                  onChange={ingresarEmail}
+                />
+                <label>Correo electrónico</label>
+              </div>
+              <div className="form-floating mb-4">
+                <input
+                  type="password"
+                  className="form-control"
+                  value={password}
+                  onChange={ingresarPassword}
+                />
+                <label>Contraseña</label>
+              </div>
+              <div className="mb-4 form-check">
+                <input type="checkbox" className="form-check-input" />
+                <label className="form-check-label">Recordarme</label>
+              </div>
 
-                  <div className="d-grid align-items-center">
-                    <button
-                      className="btn btn-lg btn-primary btn-login text-uppercase fw-bold mb-2"
-                      type="button"
-                      onClick={handleClick}
-                    >
-                      Inicia Sesión
-                    </button>
-                    <div className="text-center">
-                      <h6>
-                        ¿No tienes una cuenta?,{" "}
-                        <NavLink to="/registro">
-                          crea tu cuenta.
-                        </NavLink>
-                      </h6>
+              <div className="d-grid">
+                <button
+                  className="btn btn-primary"
+                  type="button"
+                  onClick={handleClick}
+                >
+                  Inicia Sesión
+                </button>
+              </div>
+              <div className="my-3 ">
+                <h6 className="text-center">
+                  ¿No tienes una cuenta?,{" "}
+                  <NavLink to="/registro">crea tu cuenta.</NavLink>
+                </h6>
+              </div>
+            </form>
+            {/* LOGIN CON REDES SOCIALES */}
+            <div className="container w-100 my-5">
+              <div className="row">
+                <h6 className="text-center">Iniciar Sesión con:</h6>
+              </div>
+              <div className="row">
+                <div className="col">
+                  <button className="btn btn-outline-primary w-100 my-1">
+                    <div className="row align-items-center">
+                      <div className="col-2 d-none d-md-block">
+                        <i className="fa-brands fa-facebook"></i>
+                      </div>
+                      <div className="col-12 col-md-10 text-center">
+                        Facebook
+                      </div>
                     </div>
-                  </div>
-                </form>
+                  </button>
+                </div>
+                <div className="col">
+                  <button className="btn btn-outline-danger w-100 my-1">
+                    <div className="row align-items-center">
+                      <div className="col-2 d-none d-md-block">
+                        <i className="fa-brands fa-google"></i>
+                      </div>
+                      <div className="col-12 col-md-10 text-center">Google</div>
+                    </div>
+                  </button>
+                </div>
               </div>
             </div>
           </div>

@@ -31,7 +31,7 @@ export default function Perfil() {
                     type="text"
                     className="form-control"
                     placeholder="Ingresa tu nombre"
-                    value=""
+                    
                   />
                 </div>
                 <div className="col-md-6">
@@ -39,7 +39,7 @@ export default function Perfil() {
                   <input
                     type="text"
                     className="form-control"
-                    value=""
+                    
                     placeholder="Ingresa tus Apellidos"
                   />
                 </div>
@@ -51,7 +51,7 @@ export default function Perfil() {
                     type="text"
                     className="form-control"
                     placeholder="+569-XXXXXXXX"
-                    value=""
+                    
                   />
                 </div>
                 <div className="col-md-12 mt-3">
@@ -60,7 +60,7 @@ export default function Perfil() {
                     type="text"
                     className="form-control"
                     placeholder="Ingresa tu dirección de despacho"
-                    value=""
+                    
                   />
                 </div>
                 <div className="col-md-12 mt-3">
@@ -69,7 +69,7 @@ export default function Perfil() {
                     type="text"
                     className="form-control"
                     placeholder="¿Donde vives?"
-                    value=""
+                   
                   />
                 </div>
               </div>

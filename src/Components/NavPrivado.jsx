@@ -1,31 +1,31 @@
+import logo from "../Assets/img/Logos/logo2.png";
+import "../Assets/styles/navprivado.css";
+
 import { NavLink, Navigate } from "react-router-dom";
 import RegisteredUserContext from "../Context/RegisteredUserContext";
 import { useContext } from "react";
 
-
 function NavPrivado() {
-
-  const {setPrueba} = useContext(RegisteredUserContext);
+  const { setPrueba } = useContext(RegisteredUserContext);
 
   const setActiveClass = ({ isActive }) => (isActive ? "active" : undefined);
   const handleClick = (found) => {
     //console.log(found);
     if (found) {
-     setPrueba(false) 
-      Navigate("/")
-   };
+      setPrueba(false);
+      Navigate("/");
+    }
   };
 
   return (
     <>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <NavLink end to="/" className={setActiveClass}>
-            LOGO
+      <nav className="navbar navbar-expand-lg navbar-light py-4">
+        <div className="container-fluid">
+          <NavLink end className={setActiveClass} to="/">
+            <img src={logo} className="img-logo" alt="loguito" />
           </NavLink>
-          {/* ACÁ VA UNA IMAGENNNNNNNN - EL LOGO DE LA PAGINA */}
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup"
@@ -33,22 +33,31 @@ function NavPrivado() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
           {/* BOTON DE LA HAMBURGUESA  */}
 
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ">
+          <div className="collapse navbar-collapse">
+            <div className="navbar-nav ">
               <NavLink end to="/perfil" className={setActiveClass}>
-                Perfil
+                <h6>
+                  <i className="fa-regular fa-id-badge"> Perfil</i>
+                </h6>
               </NavLink>
               <NavLink end to="/tienda" className={setActiveClass}>
-                Tienda
+                <h6>
+                  <i className="fa-solid fa-shop"> Tienda</i>
+                </h6>
               </NavLink>
 
-              {" - "}
-
-              <button type="button" onClick={handleClick}><i class="fa-sharp fa-solid fa-power-off"></i> Cerrar Sesión</button>
+              <label type="button" onClick={handleClick}>
+                <h5>
+                  <i className="fa-sharp fa-solid fa-power-off">
+                    {" "}
+                    Cerrar Sesion
+                  </i>
+                </h5>
+              </label>
             </div>
           </div>
         </div>

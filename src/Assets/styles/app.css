@@ -1,4 +1,7 @@
 body{
-    padding: 15px;
-    
+    margin: 0; 
+    background: skyblue;
+    background: linear-gradient(to right, white, skyblue);
 }
+
+

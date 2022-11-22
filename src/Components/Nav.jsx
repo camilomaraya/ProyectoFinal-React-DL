@@ -1,18 +1,17 @@
-import '../Assets/styles/nav.css'
-
+import "../Assets/styles/nav.css";
+import logo from "../Assets/img/Logos/logo2.png";
 import { NavLink } from "react-router-dom";
 
-
-
 function Nav() {
-  
-  const setActiveClass = ({isActive}) => (isActive ? "active" : undefined);
+  const setActiveClass = ({ isActive }) => (isActive ? "active" : undefined);
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light py-4">
         <div className="container-fluid">
-        <NavLink end className={setActiveClass} to="/">LOGO</NavLink>
-          {/* ACÁ VA UNA IMAGENNNNNNNN - EL LOGO DE LA PAGINA */}
+          <NavLink end className={setActiveClass} to="/">
+            <img src={logo} className="img-logo" alt="loguito" />
+          </NavLink>
+
           <button
             className="navbar-toggler"
             type="button"
@@ -25,11 +24,22 @@ function Nav() {
             <span className="navbar-toggler-icon"></span>
           </button>
           {/* BOTON DE LA HAMBURGUESA  */}
-          
-          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+          <div className="collapse navbar-collapse">
             <nav className="navbar-nav ">
-                <NavLink end to="/login" className={setActiveClass}>Ingresar</NavLink>
-                <NavLink to="/registro" className={setActiveClass}>Registro</NavLink>
+              <NavLink end to="/login" className={setActiveClass}>
+                <h6>
+                  <i className="fa-solid fa-arrow-right-to-bracket">
+                    {" "}
+                    Ingresar
+                  </i>
+                </h6>
+              </NavLink>
+              <NavLink to="/registro" className={setActiveClass}>
+                <h6>
+                  <i className="fa-solid fa-user-plus"> Registro</i>
+                </h6>
+              </NavLink>
             </nav>
           </div>
         </div>

@@ -1,21 +1,20 @@
 //CSS
 import "./Assets/styles/app.css";
 
-//COMPONENTES
+
 import Nav from "./Components/Nav";
 import NavPrivado from "./Components/NavPrivado";
 import Footer from "./Components/Footer";
 
-//HOOKS
+
 import { useCallback, useEffect, useState } from "react";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 
-//CONTEXT
 import LibrosContext from "./Context/LibrosContext";
 import RegisteredUserContext from "./Context/RegisteredUserContext";
 import UsuariosContext from "./Context/UsuariosContext";
 
-//VIEWS
+
 import Home from "./Views/Home";
 import Registro from "./Views/Registro";
 import InicioSesion from "./Views/InicioSesion";
@@ -61,7 +60,7 @@ function App() {
 
   const PrivateRoute = useCallback(
     ({ children }) => {
-      return prueba ? children : <Navigate to="/login" />;
+      return prueba ? children : <Navigate to="/logIn" />;
     },
     [prueba]
   );
@@ -103,7 +102,7 @@ function App() {
                   }
                 />
                 <Route
-                  path="/tienda/"
+                  path="/tienda"
                   element={
                     <PrivateRoute>
                       <Tienda />

@@ -1,3 +1,31 @@
-.navbar-collapse{
+.navbar{
+    /* background-color: #e6626f; */
+    background-color: #29565f
+    /* color: #b7d877*/
+    /* color: orange */
+
+}
+.collapse{
     justify-content: flex-end;
+}
+
+.active{
+    font-weight: bolder;
+}
+
+a{
+    text-decoration: none;
+    color: orange;
+    font-weight: 400;
+    padding-right: 50px;
+}
+
+a:hover{
+    color: black;
+}
+
+.img-logo{
+    width: 6rem;
+    height: 6rem;
+    margin-left: 40px;
 }

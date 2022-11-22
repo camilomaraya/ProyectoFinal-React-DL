@@ -1,0 +1,9 @@
+.navbar-nav{
+    color: orange;
+    padding-right: 40px;
+}
+
+.active{
+    font-weight: bold;
+
+}
