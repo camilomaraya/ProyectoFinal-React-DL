@@ -1,18 +1,19 @@
-import "../Assets/styles/publicaciones.css";
+import '../Assets/styles/publicaciones.css'
+
 
 export default function Publicaciones() {
   return (
-    <>
-      <div className="row size">
-        <div className="col-lg-9 mx-auto">
-          <div className="card mt-2 mx-auto p-4 bg-light">
-            <h2 className="mx-auto">PUBLICA TU LIBRO</h2>
+    <>     
+      <div className="row ">
+        <div className="col mx-auto">
+          <div className="col-md-6 mt-2 mx-auto p-4 bg-light">
+            <h2 className="text-center">PUBLICA TU LIBRO</h2>
             <div className="card-body bg-light">
               <div className="container">
                 <form>
                   <div className="control">
                     <div className="row">
-                      <div className="col-md-6">
+                      <div className="col-md-6 mb-3">
                         <div className="form-group">
                           <label>Titulo del libro</label>
                           <input
@@ -36,7 +37,7 @@ export default function Publicaciones() {
                         </div>
                       </div>
                     </div>
-                    <div className="row">
+                    <div className="row mb-3">
                       <div className="col-md-6">
                         <div className="form-group">
                           <label>Precio</label>
@@ -57,7 +58,7 @@ export default function Publicaciones() {
                             required
                             data-error="Selecciona la forma de distribución"
                           >
-                            <option value="" selected disabled>
+                            <option selected disabled>
                               --Selecciona la forma de venta--
                             </option>
                             <option>Físico</option>
@@ -68,7 +69,7 @@ export default function Publicaciones() {
                       </div>
                     </div>
                     <div className="row">
-                      <div className="col-md-12">
+                      <div className="col-md-8 mb-4">
                         <div className="form-group">
                           <label>Descripción</label>
                           <textarea
@@ -81,20 +82,20 @@ export default function Publicaciones() {
                         </div>
                       </div>
                       <div className="custom-file">
-                        <input type="file" className="custom-file-input" />
-                        <label className="custom-file-label mx-5 my-4">
+                        <input type="file" />
+                        <label className="mx-5 my-4 text">
                           <strong>Sube el archivo en formato pdf</strong>
                         </label>
                       </div>
                       <div className="custom-file">
-                        <input type="file" className="custom-file-input" />
-                        <label className="custom-file-label mx-5">
+                        <input type="file" />
+                        <label className="mx-5 my-4 text">
                           <strong>Sube la foto de portada</strong>
                         </label>
                       </div>
-                      <div className="col-md-12 my-3 mb-5">
+                      <div className="text-center my-3 mb-5">
                         <input
-                          type="button"
+                          type="submit"
                           className="btn btn-success btn-send  pt-2 btn-block"
                           value="Publicar Libro"
                         />

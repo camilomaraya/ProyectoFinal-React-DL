@@ -1,30 +1,17 @@
+import '../Assets/styles/perfil.css'
+
 import Publicaciones from './Publicaciones'
 export default function Perfil() {
   return (
     <>
-      <div className="container rounded bg-white mt-5 mb-5">
+      <div className="container-md bg-img rounded bg-white mt-5 mb-5 shadow">
         <div className="row">
-          <div className="col-md-3 border-right">
-            <div className="d-flex flex-column align-items-center text-center p-3 py-5">
-              <img
-                className="rounded-circle mt-5"
-                width="150px"
-                src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg"
-                alt="..."
-              />
-              <span className="font-weight-bold">UserName</span>
-              <span className="text-black-50">correo@correo.com</span>
-              <span><button className="btn btn-warning profile-button" type="button">
-                  Editar
-                </button></span>
-            </div>
-          </div>
           <div className="col-md-5 border-right">
             <div className="p-3 py-5">
-              <div className="d-flex justify-content-between align-items-center mb-3">
-                <h4 className="text-right">Completa tu perfil</h4>
+              <div className="d-flex justify-content-centern align-items-center mb-3">
+                <h2>Completa tu perfil</h2>
               </div>
-              <div className="row mt-2">
+              <div className="row mt-5">
                 <div className="col-md-6">
                   <label className="labels">Nombre</label>
                   <input
@@ -40,7 +27,7 @@ export default function Perfil() {
                     type="text"
                     className="form-control"
                     
-                    placeholder="Ingresa tus Apellidos"
+                    placeholder="Ingresa tus apellidos"
                   />
                 </div>
               </div>

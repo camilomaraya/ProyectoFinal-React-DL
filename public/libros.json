@@ -7,7 +7,7 @@
         "img": "https://contrapunto.cl/25464/el-gato-amaba-los-libros.jpg",
         "categoria": "Ficción moderna y contemporánea",
         "npag": "256",
-        "precio": "$12.600"
+        "precio": "12.600"
     },
     {
         "id": "2",
@@ -17,7 +17,7 @@
         "img": "https://contrapunto.cl/25434/plantas-y-arboles-de-los-bosques-de-chile.jpg",
         "categoria": "Ciencias y naturaleza",
         "npag": "202",
-        "precio": "$70.920"
+        "precio": "70.920"
     },
     {
         "id": "3",
@@ -27,7 +27,7 @@
         "img": "https://contrapunto.cl/25694/personalidades-perrunas.jpg",
         "categoria": "Ciencias y naturaleza",
         "npag": "128",
-        "precio": "$13.320"
+        "precio": "13.320"
     },
     {
         "id": "4",
@@ -37,7 +37,7 @@
         "img": "https://contrapunto.cl/15959/los-archivos-de-star-wars-1977-1983.jpg",
         "categoria": "Cine y Música",
         "npag": "512",
-        "precio": "$31.320"
+        "precio": "31.320"
     },
     {
         "id": "5",
@@ -47,7 +47,7 @@
         "img": "https://contrapunto.cl/25916/persepolis.jpg",
         "categoria": "Ficción moderna y contemporánea",
         "npag": "325",
-        "precio": "$17.100"
+        "precio": "17.100"
     },
     {
         "id": "6",
@@ -57,17 +57,17 @@
         "img": "https://images.cdn3.buscalibre.com/fit-in/360x360/c1/42/c1421e570059ba6ecc98b981336baae8.jpg",
         "categoria": "Historia de la humanidad, Ficción",
         "npag": "504",
-        "precio": "$6.840"
+        "precio": "6.840"
     },
     {
         "id": "7",
-        "title":"Juego de tronos. Canción de hielo y fuego I",
+        "title":"Canción de hielo y fuego I",
         "autor": "George R.R. Martin",
         "sinopsis": "Juego de Tronos es el primer volumen de Canción de hielo y fuego, la monumental saga de fantasía épica del escritor George R. R. Martin que ha vendido más de 20 millones de ejemplares en todo el mundo. De la saga que inspiró la filmación de la aclamada serie televisiva de HBO: Game of Thrones.",
         "img": "https://contrapunto.cl/24857/juego-de-tronos-cancion-de-hielo-y-fuego-i.jpg",
         "categoria": "Ficción, Novela Histórica",
         "npag": "800",
-        "precio": "$12.600"
+        "precio": "12.600"
     },
     {
         "id": "8",
@@ -77,7 +77,7 @@
         "img": "https://contrapunto.cl/24792/hombres-que-llegan-a-un-pueblo.jpg",
         "categoria": "Ficción Literaria ",
         "npag": "320",
-        "precio": "$13.500"
+        "precio": "13.500"
     },
     {
         "id": "9",
@@ -87,17 +87,17 @@
         "img": "https://contrapunto.cl/21347/los-siete-maridos-de-evelyn-hugo.jpg",
         "categoria": "Ficción moderna, Novela Romántica",
         "npag": "384",
-        "precio": "$17.100"
+        "precio": "17.100"
     },
     {
         "id": "10",
-        "title":"Canción para mañana. Memoria de Los Bunkers",
+        "title":"Canción para mañana",
         "autor": "Mauricio Durán",
         "sinopsis": "Canción para mañana es un relato que habla de música y de una banda, de sus cinco integrantes, y de Chile y México, del siglo XX y el XXI, y de las historias que hay detrás de las canciones más conocidas de Los Bunkers, temas que los llevan desde Talcahuano a la Plaza Dignidad, del Estadio Víctor Jara a los mayores escenarios de Latinoamérica. Mauricio Durán nos entrega en este, su primer libro, una serie de imágenes de épocas extraordinarias, meticulosas y emotivas: una hermosa narración sobre la juventud y los grandes cambios.",
         "img": "https://images.cdn3.buscalibre.com/fit-in/360x360/02/e9/02e910f79d3cf3dc6f0f70cbdc0be3e0.jpg",
         "categoria": "Biografías",
         "npag": "244",
-        "precio": "$15.210"
+        "precio": "15.210"
     },
     {
         "id": "11",
@@ -107,7 +107,7 @@
         "img": "https://contrapunto.cl/25795/he-besado-a-shara-wheeler.jpg",
         "categoria": "Novela Juvenil",
         "npag": "416",
-        "precio": "$14.400"
+        "precio": "14.400"
     },
     {
         "id": "12",
@@ -117,6 +117,6 @@
         "img": "https://contrapunto.cl/25794/malas-mujeres.jpg",
         "categoria": "Historia y Humanidades",
         "npag": "168",
-        "precio": "$18.000"
+        "precio": "18.000"
     }
 ]

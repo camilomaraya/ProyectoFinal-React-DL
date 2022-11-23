@@ -1,0 +1,12 @@
+.bg-img{
+    background-image: url(https://images.pexels.com/photos/762686/pexels-photo-762686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+h2{
+    color: black;
+}

@@ -1,11 +1,5 @@
 .card{
     width: 18rem;
-    background: black;
-    background: linear-gradient(black, white);
+    background: white;
     text-align: center;
   }
-
-.btn{
-    margin: 10px;
-}
-
