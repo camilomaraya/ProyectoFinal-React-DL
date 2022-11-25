@@ -1,11 +1,9 @@
 //CSS
 import "./Assets/styles/app.css";
 
-
 import Nav from "./Components/Nav";
 import NavPrivado from "./Components/NavPrivado";
 import Footer from "./Components/Footer";
-
 
 import { useCallback, useEffect, useState } from "react";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
@@ -14,13 +12,13 @@ import LibrosContext from "./Context/LibrosContext";
 import RegisteredUserContext from "./Context/RegisteredUserContext";
 import UsuariosContext from "./Context/UsuariosContext";
 
-
 import Home from "./Views/Home";
 import Registro from "./Views/Registro";
 import InicioSesion from "./Views/InicioSesion";
 import Perfil from "./Views/Perfil";
 import Tienda from "./Views/Tienda";
 import NotFound from "./Views/NotFound";
+import Favoritos from "./Views/Favoritos";
 
 function App() {
   //ESTADOS
@@ -94,10 +92,10 @@ function App() {
                 <Route path="/login" element={<InicioSesion />} />
                 <Route path="/registro" element={<Registro />} />
                 <Route
-                  path="perfil"
+                  path="/favoritos"
                   element={
                     <PrivateRoute>
-                      <Perfil />
+                      <Favoritos />
                     </PrivateRoute>
                   }
                 />
@@ -109,6 +107,14 @@ function App() {
                     </PrivateRoute>
                   }
                 />
+                  <Route
+                    path="perfil"
+                    element={
+                      <PrivateRoute>
+                        <Perfil />
+                      </PrivateRoute>
+                    }
+                  />
                 <Route path="*" element={<NotFound />} />
               </Routes>
               <Footer />

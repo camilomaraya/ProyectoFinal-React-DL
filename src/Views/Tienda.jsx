@@ -13,19 +13,17 @@ function Tienda() {
   //FUNCION DE BUSQUEDA POR TIPO DE ESPECIE EN EL INPUT
   const typeSearcher = (typeEvent) => {
     setSearchLibros(typeEvent.target.value);
-    //console.log(typeEvent.target.value);
+    console.log(typeEvent.target.value);
   };
 
   //FUNCION QUE REALIZA UN FILTRO PARA BUSCAR CATEGORIA DEL LIBRO
-  const busqueda = !searchLibros
-    ? librosData
-    : librosData.filter((dato) =>
-        dato.type
-          .toLowerCase()
+  const busqueda = !searchLibros ? librosData : librosData.filter((dato) => dato.type
+    .toLowerCase()
+    
           //sin tilde
-          .normalize("NFD")
-          .replace(/[\u0300-\u036f]/g, "")
           .includes(searchLibros.toLocaleLowerCase()));
+  
+          
 
   const filterSearcher = (filterEvent) => {
     let sortProducts = filterEvent.target.value;
@@ -48,11 +46,6 @@ function Tienda() {
   };
   
 
-  // {/* <h1 className="my-4 d-flex justify-content-center">
-  //         Productos Destacados
-  //       </h1>
-  //       <hr /> */}
-
   return (
     <>
       <div className="w-75 container mt-5">
@@ -72,9 +65,9 @@ function Tienda() {
             value={searchLibros}
             onChange={filterSearcher}
           >
-            <option >Categorías</option>
-            <option value="ordenarNombreA">Nombre común: de A - Z</option>
-            <option value="ordenarNombreD">Nombre común: de Z - A</option>
+            <option value="">---Categorías---</option>
+            <option value="ordenarNombreA">Título: de A - Z</option>
+            <option value="ordenarNombreD">Título: de Z - A</option>
             <option value="ordenarPrecioA">Precio Menor a Mayor</option>
             <option value="ordenarPrecioD">Precio Mayor a Menor</option>
           </select>

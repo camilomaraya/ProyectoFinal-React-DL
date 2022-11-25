@@ -39,6 +39,11 @@ function NavPrivado() {
 
           <div className="collapse navbar-collapse">
             <div className="navbar-nav ">
+              <NavLink end to="/favoritos" className={setActiveClass}>
+                <h6>
+                  <i className="fa-regular fa-id-badge"> Favoritos</i>
+                </h6>
+              </NavLink>
               <NavLink end to="/perfil" className={setActiveClass}>
                 <h6>
                   <i className="fa-regular fa-id-badge"> Perfil</i>
